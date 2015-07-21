@@ -1,7 +1,6 @@
 (function($) {
     "use strict"; // Start of use strict
     mixpanel.track("HomePage");
-    debugger;
     $('a.email-link').on('click', function(event) {
       mixpanel.track("ClickEmail");
     });
